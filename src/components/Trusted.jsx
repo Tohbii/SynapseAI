@@ -8,25 +8,53 @@ const Trusted = () => {
   <div className="max-w-6xl mx-auto">
 
     {/* TRUST */}
-    <p className="text-center text-slate-500 text-sm mb-8">
+    <p className="text-center text-slate-500 text-xs tracking-wide uppercase  mb-8">
       Trusted by creators, developers, and teams worldwide
     </p>
 
-   <div className="flex justify-center items-center mb-12">
+   <div className="flex justify-center gap-6 opacity-60 mb-12 text-slate-400 text-sm">
 
-        <div className="flex -space-x-4 opacity-70">
 
-            <img src="\public\images\framer.svg" className="w-8 h-8 bg-slate-900 p-1 rounded-full border border-slate-800" />
-            <img src="\public\images\stripe.svg" className="w-8 h-8 bg-slate-900 p-1 rounded-full border border-slate-800" />
-            <img src="\public\images\vercel.svg" className="w-8 h-8 bg-slate-900 p-1 rounded-full border border-slate-800" />
-            <img src="\public\images\framer.svg" className="w-8 h-8 bg-slate-900 p-1 rounded-full border border-slate-800" />
+            <div className="flex gap-2 justify-center ">
+                 <img src="/public/images/framer.svg" className="w-8 h-8 bg-slate-50 p-1 rounded-full border border-slate-800" />
+                  <span>Framer</span>
 
-        </div>
+            </div>
+
+             <div className="flex gap-2 justify-center ">
+                 <img src="/public/images/stripe.svg" className="w-8 h-8 bg-slate-50 p-1 rounded-full border border-slate-800" />
+                 <span>Stripe</span>
+
+            </div>
+            
+             <div className="flex gap-2 justify-center ">
+                    <img src="/public/images/vercel.svg" className="w-8 h-8 bg-slate-50 p-1 rounded-full border border-slate-800" />
+
+                <span>Vercel</span>
+
+            </div>
+
+             <div className="flex gap-2 justify-center t">
+                 <img src="/public/images/Notion.svg" className="w-8 h-8 bg-slate-50 p-1 rounded-full border border-slate-800" />
+                  <span>Notion</span>
+
+            </div>
+            
+            
+           
+        
 
     </div>
 
+    <div className="text-center">
+
+                <p className="text-cyan-400 text-sm ">Features</p>
+
+            </div>
+
+
     {/* FEATURES */}
-    <div className="grid md:grid-cols-2 gap-8 hover:shadow-cyan-500/10 hover:shadow-lg">
+    <div className="grid md:grid-cols-2 mt-8 gap-8 hover:shadow-cyan-500/10 hover:shadow-lg">
       {/* cards go here */}
         <div className="bg-slate-900/80 border border-slate-800 rounded-xl p-6 hover:border-cyan-400/40 transition">
 
